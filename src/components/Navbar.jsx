@@ -18,7 +18,7 @@ const Navbar = () => {
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      <div className={`lg:flex ${isOpen ? 'flex' : 'hidden'} flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6 text-white text-xl absolute lg:relative top-full left-0 lg:top-0 bg-blue bg-opacity-90 lg:bg-transparent w-full lg:w-auto p-6 lg:p-0`}>
+      <div className={`lg:flex ${isOpen ? 'flex' : 'hidden'} flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6 text-white text-xl lg:relative w-full lg:w-auto lg:p-0`}>
         <a href="#projects" className="hover:text-gray-400">Projects</a>
         <a href="#technology" className="hover:text-gray-400">Technology</a>
         <a href="#contact" className="hover:text-gray-400">Contact</a>
