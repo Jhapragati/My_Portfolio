@@ -48,7 +48,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Room no-70,Hostel-shri santa Puri, Banasthali vidyapeeth",
-  phoneNo: "+91 8306708837 ",
+  address: "Hostel-shri santa Puri, Banasthali vidyapeeth",
   email: "jhapragati3@gmail.com",
 };
