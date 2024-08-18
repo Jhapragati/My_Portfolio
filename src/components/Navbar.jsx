@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="w-full py-4 px-6 flex justify-between items-center fixed top-0 z-50 backdrop-blur-md bg-blue bg-opacity-70">
       <div className="text-white text-2xl lg:text-3xl font-bold">
-        <a href="#hero" className="hover:text-gray-400">Pragati Jha</a>
+        <a href="#hero" className="hover:text-gray-400">My Portfolio</a>
       </div>
       <div className="lg:hidden">
         <button onClick={toggleMenu} className="text-white text-3xl focus:outline-none">
