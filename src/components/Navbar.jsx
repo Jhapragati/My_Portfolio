@@ -10,15 +10,17 @@ const Navbar = () => {
 
   return (
     <nav className="w-full py-4 px-6 flex justify-between items-center fixed top-0 z-50 backdrop-blur-md bg-blue bg-opacity-70">
-      <div className="text-white text-3xl font-bold">
-        <a href="#hero" className="hover:text-gray-400">My Portfolio</a>
+      <div className="text-white text-2xl lg:text-3xl font-bold">
+        <a href="#hero" className="hover:text-gray-400">Pragati Jha</a>
       </div>
       <div className="lg:hidden">
         <button onClick={toggleMenu} className="text-white text-3xl focus:outline-none">
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      <div className={`lg:flex ${isOpen ? 'flex' : 'hidden'} flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6 text-white text-xl lg:relative w-full lg:w-auto lg:p-0`}>
+      <div
+        className={`lg:flex ${isOpen ? 'flex' : 'hidden'} flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-6 text-white text-xl lg:relative w-full lg:w-auto lg:p-0`}
+      >
         <a href="#projects" className="hover:text-gray-400">Projects</a>
         <a href="#technology" className="hover:text-gray-400">Technology</a>
         <a href="#contact" className="hover:text-gray-400">Contact</a>
