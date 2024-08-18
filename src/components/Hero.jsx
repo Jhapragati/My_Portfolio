@@ -52,7 +52,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-4 lg:pb-16 mx-5 text-4xl lg:text-6xl xl:text-8xl font-thin tracking-tight text-white"
+              className="pb-4 lg:pb-16 mx-5 text-4xl lg:text-6xl xl:text-8xl font-thin tracking-tight text-white z-20"
             >
               Pragati Jha
             </motion.h1>
@@ -60,7 +60,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent mx-5"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl lg:text-3xl tracking-tight text-transparent mx-5 z-20"
             >
               Developer
             </motion.span>
@@ -68,7 +68,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 mx-5 max-w-xl py-6 font-light tracking-tighter text-white text-sm lg:text-base"
+              className="my-2 mx-5 max-w-xl py-6 font-light tracking-tighter text-white text-sm lg:text-base z-20"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -79,7 +79,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={controls}
-              className="w-full max-w-xs lg:max-w-md"
+              className="w-full max-w-xs lg:max-w-md z-20"
               src={profilePic}
               alt="Pragati Jha"
             />
