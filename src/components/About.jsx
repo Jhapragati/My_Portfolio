@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className="flex justify-center lg:justify-start mt-8">
             <a
-              href="src/assets/resume_pragati_jha.pdf"
+              href="https://drive.google.com/drive/u/0/home"
               download
               className="bg-purple-800 px-6 py-2 rounded text-white hover:bg-orange-700 transition duration-300"
             >
