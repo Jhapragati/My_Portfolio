@@ -77,13 +77,13 @@ const Contact = () => {
       </div>
 
       <div className="flex justify-center space-x-6 mb-12">
-        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+        <a href="https://x.com/Pragatiiiii_j" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
           <FaTwitter size={24} />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+        <a href="https://www.linkedin.com/in/pragatiiijha/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
           <FaLinkedinIn size={24} />
         </a>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+        <a href="https://github.com/Jhapragati" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
           <FaGithub size={24} />
         </a>
       </div>
